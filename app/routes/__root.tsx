@@ -16,6 +16,7 @@ export const Route = createRootRouteWithContext<{
   queryClient: QueryClient
 }>()({
   head: () => ({
+    base: { href: '/GuitarToneRecreator/' },
     links: [{ rel: 'stylesheet', href: appCss }],
   }),
   component: RootComponent,
