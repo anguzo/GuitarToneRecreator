@@ -1,0 +1,1 @@
+import{j as e,r as n,u as r}from"./client-Dm83q9c9.js";function s(){const{data:t}=r();return e.jsx("div",{children:JSON.stringify(t)})}const a=function(){return e.jsxs("main",{className:"text-center p-4 mx-auto",children:[e.jsx("h1",{children:"About"}),e.jsx(n.Suspense,{fallback:"Loading deferred query...",children:e.jsx(s,{})})]})};export{a as component};
